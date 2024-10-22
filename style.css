@@ -1,0 +1,716 @@
+html{
+    font-size: 65%;
+}
+
+body{
+    font-family: "Goldman", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    min-height: calc(100vh - 10vh);
+    
+}
+.locatie{
+    display: flex;
+}
+.p1{
+    margin: 80px;
+}
+.l2{
+    display: flex;
+}
+.l3{
+    display: flex;
+}
+.l4{
+    display: flex;
+}
+.l5{
+    display: flex;
+}
+.l5{
+    display: flex;
+}
+nav li{
+    font-size: 1rem;
+    padding: 0 4em 0;
+    font-style: italic;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.dropbtn{
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus{
+    background-color: black;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownContent{
+    display: none;
+    position: absolute;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+
+  .color{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Goldman", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 12px;
+    border-color: aqua;
+    background-color: white;
+    text-shadow: 
+    -1px -1px 0 rgb(255, 255, 255),  
+    1px -1px 0 rgb(255, 255, 255),  
+    -1px 1px 0 rgb(255, 0, 0),  
+    1px 1px 0 rgb(255, 0, 0);
+  }
+
+
+  
+  .color2{
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: "Goldman", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    color: darkblue;
+    text-shadow: 
+    -1px -1px 0 rgb(255, 255, 255),  
+    1px -1px 0 rgb(255, 255, 255),  
+    -1px 1px 0 rgb(255, 255, 255),  
+    1px 1px 0 rgb(255, 255, 255);
+  }
+.body1{
+    min-height: calc(100vh - 10vh);
+background-image: url(/Techniek.png);
+
+background-size: cover;
+background-repeat: no-repeat;
+display: block;
+background-attachment: fixed;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    padding:0.5rem;
+    min-height: 10vh;
+    margin: auto;
+    background-color: blue;
+    justify-content: space-between;
+    overflow: visible;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+}
+.enable{
+    margin-top: 20vh;
+}
+.body2{
+background-image: url(/goal.png);
+background-position: center; 
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.body22{
+    margin-top: 20vh;
+    text-align: center;
+    background-color: rgba(203, 203, 203, 0.595);
+  background-image: url(/Goals.png);
+  background-size: cover;
+background-repeat: no-repeat;
+display: block;
+background-attachment: fixed;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+border: solid;
+border-radius: 4px;
+}
+.color3{
+    font-size: 25px;
+    text-shadow: 
+    -1px -1px 0 rgb(8, 0, 255),  
+    1px -1px 0 rgb(25, 0, 255),  
+    -1px 1px 0 rgb(68, 0, 255),  
+    1px 1px 0 rgb(30, 0, 118);
+    color: aliceblue;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: blue;
+    background-color: black;
+}
+h3{
+    font-size: 15px;
+    color: blueviolet;
+    text-shadow: 
+    -1px -1px 0 rgb(255, 255, 255),  
+    1px -1px 0 rgb(255, 255, 255),  
+    -1px 1px 0 rgb(255, 255, 255),  
+    1px 1px 0 rgb(255, 255, 255);
+}
+p1{
+    font-size: 12px;
+color: rgb(14, 0, 103);
+
+}
+
+    .text{
+        text-align: center;
+        font-size: 20px;  
+        color: azure;  
+     
+    }
+        .locLoc{
+            border-style: solid;
+            border-radius: 40px;
+            color: antiquewhite;
+            border-color: blue;
+            background-color: rgb(79, 152, 253);
+            font-size: 40px;
+        text-align: center;
+    
+        }
+
+        .sst{
+            font-size: 20px;
+            text-align: center;
+            color: blue;
+            border: solid;
+            border-radius: 4px;
+            background-color: aliceblue;
+         
+        }
+.body4{
+background-color: bisque;
+background-image: url(/b1.png);
+background-position: center; 
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+}
+.sst2{
+
+    text-align: center;
+    font-size: 12px;
+    border: solid ;
+    color: red;
+    background-color: beige;
+}
+.sst3{
+    text-align: center;
+    font-size: 12px;
+    border: solid ;
+    color: rgb(2, 2, 64);
+    background-color: aqua;
+}
+.cont{
+background-image: url(/g2.png);
+background-position: center; 
+background-repeat: no-repeat;
+background-size: cover;
+border: solid red;
+border-radius: 2px;
+border-color: aqua;
+margin-bottom: 2vh;
+}
+.cont2{
+    background-image: url(/V2.png);
+    background-position: center; 
+background-repeat: no-repeat;
+background-size: cover;
+border: solid red;
+border-radius: 2px;
+border-color: aqua;
+}
+nav a:hover{
+    background-color: rgb(248, 0, 0);
+    color: blue;
+}
+.dropdownContent a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    
+    }
+    
+    .dropdown1:hover .dropdownContent:hover{
+    display: block;
+    color: #000000;
+    }
+    .dropdown1 .dropdownContent{
+    display: none;
+    position: absolute;
+    top: 5.7vh;
+    right: 39vh;
+
+    
+    }
+    .extraInfo{
+        padding: 40px 20px
+    }
+    .dropdown1:hover .dropdownContent{
+    display: block
+    }
+    
+    .dropdownContent a{
+    color: #fafafa;
+    padding: 10px 13px;
+    text-decoration: none;
+    display: block;
+    }
+    .dropdownContent{
+
+    background-color: #f20000;
+    color: #00a8c7;
+    }
+    .edua{
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: darkblue;
+        border: solid 2px rgb(0, 0, 0);
+        border-radius: 15px;
+        text-align: center;
+        background-color: #07c500f1;
+        width: 80%;
+        margin: 20px auto;
+        text-shadow: 
+        -1px -1px 0 rgb(255, 255, 255),  
+        1px -1px 0 rgb(255, 255, 255),  
+        -1px 1px 0 rgb(255, 255, 255),  
+        1px 1px 0 rgb(255, 255, 255);
+    }
+    .cont3{
+        background-color: #7afb76f1;
+        width: 80%;
+        margin: 20px auto;
+  
+        border:  solid 2px rgb(24, 0, 118);
+        border-radius: 10px;
+    }
+   
+    
+    .head{
+        border: solid 3px black;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5vh;
+        text-shadow: 
+        -1px -1px 0 rgb(255, 255, 255),  
+        1px -1px 0 rgb(255, 255, 255),  
+        -1px 1px 0 rgb(255, 255, 255),  
+        1px 1px 0 rgb(255, 255, 255);
+        font-size: 18px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 2vh;
+        color: darkblue;
+        background-color: beige;
+
+    }
+    
+    .p7{
+        font-family: 'Times New Roman', Times, serif;
+        color: #5500fff1;
+        text-decoration: none;
+        margin-left: 2vh;
+        font-size: 19px;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: 20px auto;
+        border: solid 2px darkblue;
+        border-radius: 2px;
+
+        background-color: rgb(0, 255, 157);
+
+    }
+    .p7:hover{
+        color: white;
+        background-color: #007e3d;
+    }
+    .p2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        font-family: cursive;
+        text-shadow: 
+        -1px -1px 0 rgb(255, 255, 255),  
+        1px -1px 0 rgb(255, 255, 255),  
+        -1px 1px 0 rgb(255, 255, 255),  
+        1px 1px 0 rgb(255, 255, 255);
+    }
+    .body10{
+        background-image: url(/eduarte.png);
+        border: solid 3px #ffffff;
+        border-radius: 100px;
+       
+        
+    }
+
+    .green{
+        color: rgb(1, 62, 1);
+    }
+
+    .cont5{
+        font-size: 14px;
+       margin-bottom: 10px;
+       width: 90%;
+       height: 5vh;
+       margin: 20px auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: lightcyan;
+    }
+       
+    
+    .cont6{
+        font-size: 14px;
+        background-image: url();
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 90%;
+        height: 5vh;
+        margin: 20px auto;
+        background-color: lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .p5{
+        font-size: 12px;
+        color: white;
+        background-color: black;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 20px auto;
+        text-decoration: none;
+    }
+    .p5:hover{
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        color: rgb(254, 0, 0);
+
+    }
+    .cont7{
+        font-size: 14px;
+        background-color: #ffb951;
+    
+        width: 90%;
+        height: 5vh;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightblue;
+    }
+    .bodya{
+        background-image: url(/sof.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:  center;
+    }
+
+    .sof2{
+        font-size: 18px;
+        color: lightblue;
+        border: solid 2px black;
+        height: 5vh;
+        border-radius: 10px;
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        background-color: beige;
+    }
+    .sof1{
+        background-color: aliceblue;
+        font-weight: 400;
+        font-size: 38px;
+        text-align: center;
+        text-decoration: darkblue;
+        border: solid 2px;
+        border-radius: 25px;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 5vh;
+        width: 80%;
+        margin: 20px auto;
+    
+    }
+
+    .img3{
+        width: 45%;
+        height: 50%;
+        float: right;
+       position: absolute;
+       top: 115%;
+       right: 0;
+       margin-top: 20px;
+    }
+
+    
+
+    
+
+
+
+    .body3{
+        background-color:lightblue;
+    }
+
+    .container{
+        margin: 20px;
+        background-color: aqua;
+        border-radius: 10px;
+        padding: 10px;
+        border: 3px black solid;
+        
+    }
+
+   .h1intro{
+        font-style: italic;
+        color: blue;
+    }
+    
+    .pintro{
+        font-style: oblique;
+        color: red;
+        font-size: 20px;
+        
+    }
+    
+    .intro{
+        background-color: aqua;
+        border: 5px rgb(8, 8, 2) solid;
+        border-radius: 10px;
+        text-align: center;
+        margin: 20px;
+        
+    }
+    .body5{
+        background-color: #5500fff1;
+    }
+
+    .color9{
+        color: black;
+        background-color: wheat;
+    }
+    .color0{
+        font-weight: 400;
+        color: #00a8c7;
+        background-color: wheat;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 20px auto;
+        border: solid 2px ;
+    }
+
+
+    /* yusuf locatiegids */
+    .alle{
+        background-color: aqua;
+        border-radius: 10px;
+        border: 3px black solid;
+        margin: 30px;
+    }
+    
+    .eerstevraag{
+        border-radius: 10px;
+    }
+    
+    .tweedevraag{
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    
+    .regels{
+        border: 3px yellow solid;
+        margin: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    .ziekmelden{
+        border: 3px yellow solid;
+        margin: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+   .h1loc, .h2loc{
+        color: blue;
+        margin-left: 10px;
+    }
+    
+    .ploc, .liloc{
+        color: red;
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    .locatiegids{
+        border: 5px black solid;
+        margin: 25px;
+        border-radius: 10px ;
+        background-color: aqua;
+        text-align: center;
+    }
+
+    /* Canvas */
+
+    .butun{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 150px;
+        margin-top: 20px;
+        width: 1200px;
+        background-color: aqua;
+        border-radius: 20px;
+        border: 3px black solid;
+        padding: 10px 10px;
+}
+
+.butunkonu{
+    margin-left: 300px;
+    margin-top: 100px;
+    background-color: aqua;
+    border: 5px black solid;
+    border-radius: 20px;
+    padding: 5px;
+    width: 900px;
+    text-align: center;
+}
+
+
+.kapsayici{
+    display: flex;
+    flex-direction: column;
+}
+
+.canvas{
+    border: 2px yellow solid;
+    border-radius: 10px;
+    width: 800px;
+    text-align: center;
+    
+}
+
+.parent{
+    border: 2px yellow solid;
+    border-radius: 10px;
+    width: 800px;
+    text-align: center;
+    
+}
+
+
+.renkbaslik{
+    color: blue;
+}
+
+
+.h2canva{
+    color: blue;
+    font-size: 20px;
+}
+
+.pcanva{
+    color: red;
+    font-size: 18px;
+}
+
+.link{
+    height: 20px;
+    width: 400px;
+    background-color: aqua;
+    margin-left: 575px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px black solid;
+}
+.link:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+}
+
+
+.linkcanvas{
+    text-decoration: none;
+    color:blue ;
+    font-size: 15px;
+}
+.linkcanvas:hover,
+.linkcanvas:focus{
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+
+}
+
+.bodycanvas{
+   background-color: #f20000;
+}
